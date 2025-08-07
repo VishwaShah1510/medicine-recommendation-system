@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-Here’s a ready-to-copy `README.md` for your **Medicine Recommendation System** project:
-
----
-
-```markdown
 # 💊 Medicine Recommendation System
 
 This is a simple medicine recommendation web app built using **Python (Flask)** and **Pandas**, which recommends suitable medicines based on user-input symptoms.
@@ -23,113 +17,32 @@ This is a simple medicine recommendation web app built using **Python (Flask)** 
 ---
 
 ## 📁 Project Structure
-
-```
-
 medicine-recommendation-system/
 │
-├── app.py                  # Flask backend
-├── medicine.csv            # Dataset containing symptoms, medicines, notes
+├── app.py # Flask backend
+├── medicine.csv # Dataset containing symptoms, medicines, notes
 ├── templates/
-│   └── index.html          # Frontend HTML (Jinja2)
+│ └── index.html # Frontend HTML (Jinja2)
 ├── static/
-│   ├── style.css           # CSS styling
-│   └── script.js           # JavaScript (auto-suggestions, dark mode, etc.)
-└── README.md               # Project documentation
+│ ├── style.css # CSS styling
+│ └── script.js # JavaScript (auto-suggestions, dark mode, etc.)
+└── README.md # Project documentation
+🧠 Future Improvements
+Use NLP or ML for smarter suggestions
 
-````
+Add user authentication
 
----
+Save user history to MongoDB
 
-## ⚙️ How to Run
+Add user ratings/reviews for medicines
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/VishwaShah1510/medicine-recommendation-system.git
-cd medicine-recommendation-system
-````
+Export reports as PDF
 
-### 2. Install dependencies
-
-Make sure Python is installed. Then run:
-
-```bash
-pip install -r requirements.txt
-```
-
-> If `requirements.txt` doesn't exist, just manually install:
-
-```bash
-pip install flask pandas
-```
-
-### 3. Run the app
-
-```bash
-python app.py
-```
-
-Visit `http://localhost:5000` in your browser.
-
----
-
-## 🧪 Sample Input
-
-**Input Symptoms:**
-
-```
-cold, cough
-```
-
-**Output Suggestions:**
-
-* 🤧 Symptoms Matched: cold, cough
-* 📝 Notes: Take rest, stay hydrated
-* 🧬 Category: Viral Infection
-* 💊 Recommended Medicines: Dolo 650, Cetrizine
-
----
-
-## 🧠 Future Improvements
-
-* Use NLP or ML for smarter suggestions
-* Add user authentication
-* Save user history to MongoDB
-* Add user ratings/reviews for medicines
-* Export reports as PDF
-
----
-
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
----
+📄 License
+This project is open-source and available under the MIT License.
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🙌 Author
-
-Made with ❤️ by [Vishwa Shah](https://github.com/VishwaShah1510)
-
-=======
-# 💊 Medicine Recommendation System
-
-An intelligent web application that suggests appropriate medicines based on user-input symptoms. Built using **Python (Flask)** for the backend and **HTML, CSS, JavaScript** for the frontend.
-
-## 📌 Features
-
-- 📝 Search symptoms and get medicine recommendations
-- 🧠 Intelligent matching using similarity algorithms
-- 💡 Auto-suggestions while typing symptoms
-- 📋 Query history with detailed output (Symptoms, Notes, Category, Medicines)
-- 📱 Mobile responsive layout
-- ⚠️ Handles errors with user-friendly messages
-
-## 📂 Project Structure
->>>>>>> 0b767569a9749beec97dfab8c0f591e384f1db5a
-
+🙌 Author
+Made with ❤️ by Vishwa Shah
