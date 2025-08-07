@@ -27,6 +27,7 @@ medicine-recommendation-system/
 │ ├── style.css # CSS styling
 │ └── script.js # JavaScript (auto-suggestions, dark mode, etc.)
 └── README.md # Project documentation
+
 🧠 Future Improvements
 Use NLP or ML for smarter suggestions
 
