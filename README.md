@@ -46,7 +46,6 @@ Open your browser and go to http://127.0.0.1:5000
 ---
 
 ## 🙋‍♀️ Author
-
 **Vishwa Shah**  
 📧 [vishwashah003@gmail.com](mailto:vishwashah003@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/vishwashah151003)  
