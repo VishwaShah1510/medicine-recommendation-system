@@ -52,14 +52,14 @@ Open your browser and go to http://127.0.0.1:5000
 🌐 GitHub: [@VishwaShah1510](https://github.com/VishwaShah1510)
 
 ---
-🤝 Contributions
 
-Pull requests and suggestions are welcome.
-If you want to use the model for different domains (e.g., veterinary, mental health), feel free to fork and modify.
+## 🤝 Contributions
+
+This is a personal academic project.  
+Feel free to fork it, suggest improvements, or use parts of it in your own health-tech experiments.
 
 ---
 
-📌 License
+## 📌 License
 
-This project is licensed under the MIT License.
----
+This project is open-source and available under the [MIT License](LICENSE).
