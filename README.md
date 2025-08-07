@@ -40,6 +40,7 @@ Open your browser and go to http://127.0.0.1:5000
 ---
 ## 📷 Screenshots
 🏥 Home Page (Input Symptoms)
+
 💊 Output Page (Medicine Recommendation)
 
 ---
