@@ -1,0 +1,21 @@
+disease,symptoms,medicines,category,notes
+Common Cold,"fever, cough, sore throat",Paracetamol,OTC,Rest and fluids
+Headache,"headache, dizziness",Aspirin,OTC,Avoid stress
+Flu,"fever, chills, cough, body ache",Antiviral,Prescription,Consult a doctor
+Allergy,"sneezing, runny nose, itchy eyes",Antihistamines,OTC,Identify allergen
+Stomach Ache,"stomach pain, nausea, indigestion",Antacid,OTC,Light diet
+Migraine,"throbbing headache, nausea, light sensitivity",Triptans,Prescription,Stay in dark quiet room
+Diabetes,"frequent urination, fatigue, blurred vision",Insulin,Prescription,Check sugar levels regularly
+Hypertension,"high blood pressure, headache, dizziness",ACE inhibitors,Prescription,Monitor BP
+Asthma,"wheezing, shortness of breath, chest tightness",Inhalers,Prescription,Avoid triggers
+Acidity,"heartburn, sour burps, bloating",Omeprazole,OTC,Avoid spicy food
+Back Pain,"lower back pain, stiffness, muscle ache",Ibuprofen,OTC,Do stretching
+Diarrhea,"loose motion, cramps, dehydration",ORS,OTC,Stay hydrated
+Constipation,"dry stools, bloating, difficulty passing stool",Laxatives,OTC,Fiber-rich diet
+Skin Rash,"redness, itchiness, swelling",Hydrocortisone cream,OTC,Keep area dry
+Cold Sores,"tingling, blisters, swollen gums",Acyclovir,OTC,Avoid kissing/sharing items
+Depression,"low mood, fatigue, loss of interest",SSRIs,Prescription,Therapy and support
+Anxiety,"restlessness, fast heart rate, sweating",Benzodiazepines,Prescription,Practice mindfulness
+Sore Throat,"scratchy throat, pain, difficulty swallowing",Lozenges,OTC,Gargle with salt water
+Ear Infection,"ear pain, drainage, reduced hearing",Antibiotic drops,Prescription,Consult ENT
+Eye Infection,"red eyes, itching, discharge",Eye drops,Prescription,Do not touch/rub eyes
