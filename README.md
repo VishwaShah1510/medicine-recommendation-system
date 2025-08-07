@@ -55,8 +55,8 @@ Open your browser and go to http://127.0.0.1:5000
 
 ## 🤝 Contributions
 
-This is a personal academic project.  
-Feel free to fork it, suggest improvements, or use parts of it in your own health-tech experiments.
+Pull requests and suggestions are welcome.
+If you want to use the model for different domains (e.g., veterinary, mental health), feel free to fork and modify.
 
 ---
 
