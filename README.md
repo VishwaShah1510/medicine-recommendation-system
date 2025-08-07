@@ -1,17 +1,15 @@
 # 💊 Medicine Recommendation System
 
-A simple web application that recommends medicines based on user-input symptoms. This system uses a CSV dataset and a lightweight Flask backend to deliver quick suggestions through a clean and user-friendly web interface.
+An intelligent web application that suggests appropriate medicines based on user-input symptoms. Built using **Python (Flask)** for the backend and **HTML, CSS, JavaScript** for the frontend.
 
----
+## 📌 Features
 
-## 🚀 Features
+- 📝 Search symptoms and get medicine recommendations
+- 🧠 Intelligent matching using similarity algorithms
+- 💡 Auto-suggestions while typing symptoms
+- 📋 Query history with detailed output (Symptoms, Notes, Category, Medicines)
+- 📱 Mobile responsive layout
+- ⚠️ Handles errors with user-friendly messages
 
-- Recommend medicines based on input symptoms
-- Uses CSV file (`medicine.csv`) as a data source
-- Built with Flask, HTML, and CSS
-- Simple UI using Flask templates
-
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 
