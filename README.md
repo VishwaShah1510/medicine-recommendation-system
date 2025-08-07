@@ -39,9 +39,16 @@ python app.py
 Open your browser and go to http://127.0.0.1:5000
 ---
 ## 📷 Screenshots
-🏥 Home Page (Input Symptoms)
+## 📷 Screenshots
 
-💊 Output Page (Medicine Recommendation)
+### 🏠 Home Page  
+![Home Page](assets/home_page.png)
+
+### 🔍 Suggestions
+![Suggestions](assets/Suggestions.png)
+
+### 📄 Result Page  
+![Result Page](assets/result_page.png)
 
 ---
 
