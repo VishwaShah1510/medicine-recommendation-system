@@ -55,6 +55,8 @@ Open your browser and go to http://127.0.0.1:5000
 🤝 Contributions
 Pull requests and suggestions are welcome.
 If you want to use the model for different domains (e.g., veterinary, mental health), feel free to fork and modify.
+---
 
 📌 License
 This project is licensed under the MIT License.
+---
