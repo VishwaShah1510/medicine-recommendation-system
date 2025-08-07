@@ -37,21 +37,22 @@ pip install -r requirements.txt
 3. **Run the App:**
 python app.py
 Open your browser and go to http://127.0.0.1:5000
-
+---
 📷 Screenshots
 
 🏥 Home Page (Input Symptoms)
 
 💊 Output Page (Medicine Recommendation)
+---
 
-🙋‍♂️ Author
-Vishwa Shah
-📧 vishwashah003@gmail.com
+## 🙋‍♀️ Author
 
-🔗 LinkedIn: linkedin.com/in/vishwashah151003
+**Vishwa Shah**  
+📧 [vishwashah003@gmail.com](mailto:vishwashah003@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/vishwashah151003)  
+🌐 GitHub: [@VishwaShah1510](https://github.com/VishwaShah1510)
 
-🌐 GitHub: @VishwaShah1510
-
+---
 🤝 Contributions
 Pull requests and suggestions are welcome.
 If you want to use the model for different domains (e.g., veterinary, mental health), feel free to fork and modify.
