@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Here’s a ready-to-copy `README.md` for your **Medicine Recommendation System** project:
 
 ---
@@ -115,4 +116,20 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Made with ❤️ by [Vishwa Shah](https://github.com/VishwaShah1510)
 
+=======
+# 💊 Medicine Recommendation System
+
+An intelligent web application that suggests appropriate medicines based on user-input symptoms. Built using **Python (Flask)** for the backend and **HTML, CSS, JavaScript** for the frontend.
+
+## 📌 Features
+
+- 📝 Search symptoms and get medicine recommendations
+- 🧠 Intelligent matching using similarity algorithms
+- 💡 Auto-suggestions while typing symptoms
+- 📋 Query history with detailed output (Symptoms, Notes, Category, Medicines)
+- 📱 Mobile responsive layout
+- ⚠️ Handles errors with user-friendly messages
+
+## 📂 Project Structure
+>>>>>>> 0b767569a9749beec97dfab8c0f591e384f1db5a
 
