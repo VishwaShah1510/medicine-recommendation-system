@@ -9,7 +9,6 @@ An intelligent web-based system that recommends suitable medicines based on user
 - 🔍 Predicts recommended medicines based on user-input symptoms  
 - 🧠 Trained Machine Learning model for smart recommendations  
 - 💻 User-friendly web interface (HTML + CSS + JS)  
-- 🌙 Dark mode toggle for better UX  
 - 🗂 Symptom auto-suggestions using JavaScript  
 - 🕑 Query history stored in localStorage  
 - 📱 Mobile responsive design
