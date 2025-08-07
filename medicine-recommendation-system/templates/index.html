@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medicine Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🩺 Medicine Recommendation System</h1>
+        <form method="POST">
+            <label for="symptoms">Enter symptoms (comma separated):</label>
+            <input type="text" id="symptoms" name="symptoms" placeholder="e.g., fever, headache" autocomplete="off" required>
+            <div id="suggestions-box"></div>
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if result %}
+            <p class="error">{{ result }}</p>
+        {% endif %}
+
+        {% if results %}
+            <h2>🔍 Matched Results:</h2>
+            {% for item in results %}
+                <div class="result-box">
+                    <p><strong>Disease:</strong> {{ item.disease }}</p>
+                    <p><strong>Symptoms:</strong> {{ item.symptoms }}</p>
+                    <p><strong>Medicines:</strong> {{ item.medicine }}</p>
+                    <p><strong>Category:</strong> {{ item.category }}</p>
+                    <p><strong>Notes:</strong> {{ item.notes }}</p>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    <script>
+        const symptomList = {{ symptoms | tojson }};
+        const input = document.getElementById("symptoms");
+        const suggestionsBox = document.getElementById("suggestions-box");
+
+        input.addEventListener("input", () => {
+            const terms = input.value.split(',');
+            const lastWord = terms[terms.length - 1].trim().toLowerCase();
+
+            suggestionsBox.innerHTML = "";
+            if (lastWord.length === 0) return;
+
+            const filtered = symptomList.filter(symptom => symptom.startsWith(lastWord));
+            filtered.slice(0, 5).forEach(symptom => {
+                const div = document.createElement("div");
+                div.textContent = symptom;
+                div.className = "suggestion";
+                div.addEventListener("click", () => {
+                    terms[terms.length - 1] = " " + symptom;
+                    input.value = terms.join(',').replace(/^,/, '');
+                    suggestionsBox.innerHTML = "";
+                });
+                suggestionsBox.appendChild(div);
+            });
+        });
+
+        document.addEventListener("click", (e) => {
+            if (!suggestionsBox.contains(e.target) && e.target !== input) {
+                suggestionsBox.innerHTML = "";
+            }
+        });
+    </script>
+</body>
+</html>
